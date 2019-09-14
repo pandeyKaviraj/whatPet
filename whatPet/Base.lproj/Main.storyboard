@@ -18,16 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nhh-sF-bhY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nhh-sF-bhY">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nhh-sF-bhY" secondAttribute="height" multiplier="207:404" id="Y55-LR-WqB"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="nhh-sF-bhY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1A1-qQ-BcQ"/>
                             <constraint firstAttribute="trailing" secondItem="nhh-sF-bhY" secondAttribute="trailing" id="9HB-uj-UD8"/>
+                            <constraint firstAttribute="bottom" secondItem="nhh-sF-bhY" secondAttribute="bottom" id="9S5-Ku-7dg"/>
                             <constraint firstItem="nhh-sF-bhY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JWg-PP-qN8"/>
                             <constraint firstItem="nhh-sF-bhY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PTY-5X-eEU"/>
                             <constraint firstAttribute="bottom" secondItem="nhh-sF-bhY" secondAttribute="bottom" id="ZeY-MC-QZH"/>
+                            <constraint firstItem="nhh-sF-bhY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cMz-M2-Jej"/>
+                            <constraint firstItem="nhh-sF-bhY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oLt-6j-lHf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
