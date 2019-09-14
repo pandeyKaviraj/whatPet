@@ -12,6 +12,7 @@
 		5F60ED4E232CB08300FB48CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F60ED4C232CB08300FB48CD /* Main.storyboard */; };
 		5F60ED50232CB08500FB48CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F60ED4F232CB08500FB48CD /* Assets.xcassets */; };
 		5F60ED53232CB08500FB48CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F60ED51232CB08500FB48CD /* LaunchScreen.storyboard */; };
+		5F60ED5B232CB17500FB48CD /* animalImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5F60ED5A232CB17500FB48CD /* animalImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F60ED4F232CB08500FB48CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F60ED52232CB08500FB48CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F60ED54232CB08500FB48CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F60ED5A232CB17500FB48CD /* animalImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animalImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5F60ED4C232CB08300FB48CD /* Main.storyboard */,
 				5F60ED4F232CB08500FB48CD /* Assets.xcassets */,
 				5F60ED51232CB08500FB48CD /* LaunchScreen.storyboard */,
+				5F60ED5A232CB17500FB48CD /* animalImageClassifier.mlmodel */,
 				5F60ED54232CB08500FB48CD /* Info.plist */,
 			);
 			path = whatPet;
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F60ED4B232CB08300FB48CD /* ViewController.swift in Sources */,
+				5F60ED5B232CB17500FB48CD /* animalImageClassifier.mlmodel in Sources */,
 				5F60ED49232CB08300FB48CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

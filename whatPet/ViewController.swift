@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import CoreML
+import Vision
+
 
 class ViewController: UIViewController {
+    
+    //Outlets section
+    
+    @IBOutlet var imageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
+    
+    //Action for camera button
+    
+    @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
+        print("Camera is woking!")
+        
+    }
+    
 }
 
